@@ -22,9 +22,9 @@ const deployFunction: DeployFunction = async function ({
       BuildCallData: "0x3311A4609cdD0C7Ce8D2Dfa592BA4aDD23FeC578",
     },
     args: [
-        "0x2fD8bbF5dc8b342C09ABF34f211b3488e2d9d691",
-        "0xfffFffff00000000000000010000000000000010",
-        "257"
+      "0x2fD8bbF5dc8b342C09ABF34f211b3488e2d9d691",
+      // "0xfffFffff00000000000000010000000000000010",
+      // "257",
     ],
   });
 };

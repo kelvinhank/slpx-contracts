@@ -16,7 +16,7 @@ const deployFunction: DeployFunction = async function ({
   await deploy("MantaPacificSlpx", {
     from: deployer,
     log: true,
-    deterministicDeployment: false
+    deterministicDeployment: false,
   });
 };
 
